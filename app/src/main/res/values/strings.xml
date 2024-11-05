@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">TseaAfricaApp</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <!-- Strings used for Login and Sign Up -->
+    <string name="login">
+        <u>Login</u>
+    </string>
+
+    <string name="signup">
+        <u>Sign Up</u>
+    </string>
+
+    <string name="forgot">
+        <u>Forgot Password?</u>
+    </string>
+    <!-- Strings used for Settings -->
+    <string name="settings">Settings</string>
+    <!-- Strings used for Cookware -->
+    <string name="recipe_name">Recipe Name:</string>
+    <string name="total_minutes">Total Minutes:</string>
+    <string name="total_servings">Total Servings:</string>
+    <string name="cookware">Cookware:</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="enter_quantity">Quantity</string>
+    <string name="measurement">Measurement</string>
+    <string name="instructions">Instructions:</string>
+    <string name="add">Add</string>
+    <string name="save_recipe">Save Recipe</string>
+    <!-- Strings used for Favourites -->
+    <string name="my_favourites">My Favourites</string>
+    <!-- Strings used for Home -->
+    <string name="build_a_meal_plan">Build a meal plan</string>
+    <string name="recently_created">Recently created</string>
+    <string name="favourites">Favourites</string>
+    <!-- Strings used for Personalised meals -->
+    <string name="logout">logout</string>
+    <!-- Strings used for recipe page -->
+    <string name="cookware_">Cookware</string>
+    <string name="ingredients_">Ingredients</string>
+    <string name="instructions_">Instructions</string>
+    <!-- Strings used for team -->
+    <string name="return_">Return</string>
+    <!-- Strings used for user preference -->
+    <string name="min_carbs_g">Min Carbs (g)</string>
+    <string name="max_carbs_g">Max Carbs (g)</string>
+    <string name="min_protein_g">Min Protein (g)</string>
+    <string name="max_protein_g">Max Protein (g)</string>
+    <string name="min_calories">Min Calories</string>
+    <string name="max_calories">Max Calories</string>
+    <string name="search_recipes">Search Recipes</string>
+    <!-- Strings used for user settings -->
+    <string name="your_preferences">Your Preferences</string>
+    <string name="health_goals">Health Goals</string>
+    <string name="meet_our_team">Meet our Team</string>
+    <string name="your_recipes">Your Recipes</string>
+</resources>

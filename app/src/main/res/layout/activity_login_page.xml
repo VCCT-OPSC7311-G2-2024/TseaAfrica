@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+<ImageView
+android:id="@+id/miniLogo"
+android:layout_width="97dp"
+android:layout_height="73dp"
+android:layout_gravity="center"
+    app:srcCompat="@drawable/logo" />
+
+<TextView
+android:id="@+id/signupLbl"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:textColor="@color/black"
+    android:text="Login" />
+
+<TextView
+android:id="@+id/emailLbl"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="24dp"
+android:textStyle="bold"
+android:text="Email Address" />
+
+<EditText
+android:id="@+id/emailTxt"
+android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/customtxtbox"
+    android:inputType="textEmailAddress" />
+
+<TextView
+android:id="@+id/passwordLbl"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="24dp"
+android:textStyle="bold"
+android:text="Password" />
+
+<com.google.android.material.textfield.TextInputLayout
+android:id="@+id/passwordTxtLayout"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="8dp"
+app:passwordToggleEnabled="true">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/passwordTxt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customtxtbox"
+    android:inputType="textPassword" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<TextView
+android:id="@+id/textView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="8dp"
+android:text="@string/forgot" />
+
+<Button
+android:id="@+id/createAccBtn"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:backgroundTint="#D67229"
+android:text="Login"
+app:cornerRadius="9dp" />
+
+<TextView
+android:id="@+id/orLbl"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:text="Or" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="1dp"
+android:layout_marginTop="8dp"
+android:background="#A9A9A9" />
+
+<Button
+android:id="@+id/gmailBtn"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:backgroundTint="@color/white"
+android:textColor="@color/black"
+android:text="Sign Up with Google"
+app:cornerRadius="9dp"
+app:strokeColor="#A9A9A9"
+android:textStyle="bold"
+app:strokeWidth="1dp" />
+
+<Button
+android:id="@+id/facebookBtn"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:backgroundTint="#316FF6"
+android:text="Sign Up with Facebook"
+android:textColor="@color/white"
+android:textStyle="bold"
+app:cornerRadius="9dp" />
+
+<Button
+android:id="@+id/bioBtn"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:backgroundTint="@color/white"
+android:text="Login with Biometrics"
+android:textColor="@color/black" />
+
+<TextView
+android:id="@+id/questiontxt"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="16dp"
+android:text="Not a member?" />
+
+<TextView
+android:id="@+id/linktxt3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="4dp"
+android:text="@string/signup"
+android:textStyle="bold" />
+
+    </LinearLayout>

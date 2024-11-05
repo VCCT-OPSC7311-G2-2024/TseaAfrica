@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="mediumAuqamarine">#66DDAA</color>
+    <color name="lightOrange">#ff9c1d</color>
+    <color name="candyPink">#E4717A</color>
+    <color name="grey">#808080</color>
+    <color name="red">#FF0000</color>
+
+    <!-- Colors from the other branch -->
+    <color name="button_default_background">#006200EE</color>
+    <color name="button_pressed_background">#FF3700B3</color> <!-- Darker purple -->
+    <color name="button_disabled_background">#FFB0B0B0</color> <!-- Gray for disabled -->
+    <color name="your_text_color">#FF000000</color>
+    <color name="tealish">#B0E0C1</color>
+</resources>

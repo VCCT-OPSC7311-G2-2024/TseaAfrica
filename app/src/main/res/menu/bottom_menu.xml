@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/homeic" />
+    <item
+        android:id="@+id/mealPlan"
+        android:title="Meal Plan"
+        android:icon="@drawable/receipeic" />
+    <item
+        android:id="@+id/fave"
+        android:title="Favorites"
+        android:icon="@drawable/heartic" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/settingsic" />
+
+</menu>
